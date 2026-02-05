@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundación Idear - Transformando Ideas en Oportunidades</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo Fundación Idear" style="width: 40px; border-radius: 5px;">
+                <span class="ms-2 fw-bold d-none d-sm-inline">FUNDACIÓN IDEAR</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto text-end">
+                    <li class="nav-item"><a class="nav-link" href="#valor">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#miembros">Miembros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#en-vivo">Curso en Vivo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="brand-master">
+        <img src="logo.png" alt="Logo Fundación Idear">
+        <h1>FUNDACIÓN IDEAR</h1>
+        <h2>Ideas Argentinas</h2>
+    </header>
+
+    <section id="valor" class="section-bg">
+        <div class="container">
+            <div class="row text-center gy-5">
+                <div class="col-md-4 valor-item">
+                    <div class="icon"><i class="bi bi-patch-check-fill"></i></div>
+                    <h3>Certificación Oficial</h3>
+                    <p class="text-muted">Nuestras certificaciones están avaladas por el SPEPM.</p>
+                </div>
+                <div class="col-md-4 valor-item">
+                    <div class="icon"><i class="bi bi-people-fill"></i></div>
+                    <h3>Impacto Social</h3>
+                    <p class="text-muted">Generamos oportunidades reales para jóvenes de nuestra comunidad.</p>
+                </div>
+                <div class="col-md-4 valor-item">
+                    <div class="icon"><i class="bi bi-briefcase-fill"></i></div>
+                    <h3>Formación para el Empleo</h3>
+                    <p class="text-muted">Diseñamos cursos con las herramientas que el mercado laboral demanda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cursos">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Nuestra Oferta Educativa</h2>
+                <p class="lead" style="color: #f0f0f0;">Capacitaciones pensadas para tu crecimiento.</p>
+            </div>
+            <div class="row g-5" id="cursosAccordion">
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-heart-half"></i></div>
+                        <div class="card-body">
+                            <h4>Inteligencia Emocional Financiera</h4>
+                            <p class="small">Gestioná tus emociones para tomar mejores decisiones financieras.</p>
+                            <ul class="curso-info-list">
+                                <li><i class="bi bi-calendar3"></i> Modalidad: Presencial / Virtual</li>
+                                <li><i class="bi bi-clock-history"></i> 1 clase semanal de 2hs</li>
+                            </ul>
+                            <div class="curso-actions">
+                                <button class="btn-temario btn-curso" type="button" data-bs-toggle="collapse" data-bs-target="#temario-1">Ver Temario</button>
+                                <a href="https://wa.me/5493765245980?text=Info%20Inteligencia%20Emocional%20Financiera" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="temario-1" data-bs-parent="#cursosAccordion"><div class="curso-temario-detalle"><h6>Módulo 1: Inteligencia Financiera</h6><ul><li>Tipo de personas frente al dinero</li><li>Dinero y características</li><li>Neuroprosperidad</li><li>Creencias y mentalidad</li></ul><h6>Módulo 2: Gestión Ontológica</h6><ul><li>Tendencias de quiebre</li><li>Gestión del dinero</li><li>Cuadrante del dinero</li><li>Emociones y dinero</li></ul><h6>Módulo 3: Libertad Financiera</h6><ul><li>Ampliación del observador</li><li>Juicios Maestros</li><li>Lenguaje de los cuadrantes</li></ul></div></div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-people-fill"></i></div>
+                        <div class="card-body">
+                            <h4>Community Manager</h4>
+                            <p class="small">Aprendé a gestionar redes sociales y a construir comunidades online.</p>
+                            <ul class="curso-info-list">
+                                <li><i class="bi bi-calendar3"></i> Modalidad: Presencial / Virtual</li>
+                                <li><i class="bi bi-clock-history"></i> 1 clase semanal de 2hs</li>
+                            </ul>
+                            <div class="curso-actions">
+                                <button class="btn-temario btn-curso" type="button" data-bs-toggle="collapse" data-bs-target="#temario-2">Ver Temario</button>
+                                <a href="https://wa.me/5493765245980?text=Info%20Community%20Manager" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="temario-2" data-bs-parent="#cursosAccordion"><div class="curso-temario-detalle"><h6>Módulo 1: Objetivos Claros</h6><ul><li>Qué hace un community manager</li><li>Objetivos digitales</li><li>Introducción en ventas</li><li>Posicionamiento de marcas</li></ul><h6>Módulo 2: Plan de Contenido</h6><ul><li>Tipos de contenido</li><li>Reglas de aplicación</li><li>Adaptación de contenido</li><li>Calendario de contenido</li></ul><h6>Módulo 3: Contenido que Funciona</h6><ul><li>Reels, historias y carruseles</li><li>Tendencias y audios</li><li>Contenido auténtico vs. perfecto</li><li>Hooks (primeros 3 segundos)</li></ul><h6>Módulo 4: Interacción y Crecimiento</h6><ul><li>Importancia de la interacción</li><li>Desarrollar respuestas</li><li>Estrategia de historias</li><li>Construcción de comunidad</li></ul></div></div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-pc-display"></i></div>
+                        <div class="card-body">
+                            <h4>Operador de PC para Negocios</h4>
+                            <p class="small">Dominá las herramientas de oficina, la nube y la IA para tu trabajo.</p>
+                            <ul class="curso-info-list">
+                                <li><i class="bi bi-calendar3"></i> Modalidad: Presencial</li>
+                                <li><i class="bi bi-clock-history"></i> 1 clase semanal de 2hs</li>
+                            </ul>
+                            <div class="curso-actions">
+                                <button class="btn-temario btn-curso" type="button" data-bs-toggle="collapse" data-bs-target="#temario-3">Ver Temario</button>
+                                <a href="https://wa.me/5493765245980?text=Info%20Operador%20de%20PC" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="temario-3" data-bs-parent="#cursosAccordion"><div class="curso-temario-detalle"><h6>Módulo 1: Uso Profesional de la PC</h6><ul><li>Componentes y SO</li><li>Organización de archivos</li><li>Cloud y almacenamiento</li></ul><h6>Módulo 2: Procesador de Textos</h6><ul><li>Documentos formales</li><li>Presupuestos y notas</li><li>Manejo de PDF</li></ul><h6>Módulo 3: Planillas de Cálculo</h6><ul><li>Funciones y fórmulas</li><li>Control de gastos/ingresos</li><li>Gráficos básicos</li></ul><h6>Módulo 4: Comunicación Digital</h6><ul><li>Email profesional</li><li>Calendario y tareas</li><li>WhatsApp Business</li></ul><h6>Módulo 5: IA Aplicada</h6><ul><li>Uso de ChatGPT</li><li>Redacción y organización</li></ul><h6>Módulo 6: Herramientas Digitales</h6><ul><li>Formularios y diseño básico</li></ul><h6>Módulo 7: Seguridad Informática</h6><ul><li>Contraseñas y prevención</li></ul></div></div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-briefcase-fill"></i></div>
+                        <div class="card-body">
+                            <h4>Secretariado Jurídico</h4>
+                            <p class="small">Adquirí herramientas para una gestión eficiente en el ámbito legal.</p>
+                            <ul class="curso-info-list">
+                                <li><i class="bi bi-calendar3"></i> Modalidad: Presencial / Virtual</li>
+                                <li><i class="bi bi-clock-history"></i> 1 clase semanal de 2hs</li>
+                            </ul>
+                            <div class="curso-actions">
+                                <button class="btn-temario btn-curso" type="button" data-bs-toggle="collapse" data-bs-target="#temario-4">Ver Temario</button>
+                                <a href="https://wa.me/5493765245980?text=Info%20Secretariado%20Jurídico" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="temario-4" data-bs-parent="#cursosAccordion"><div class="curso-temario-detalle"><h6>Módulo 1: Entorno Jurídico</h6><ul><li>Organización judicial</li><li>Terminología básica</li><li>Redacción</li></ul><h6>Módulo 2: Procesos Judiciales</h6><ul><li>Expediente judicial</li><li>Plazos procesales</li><li>Gestión de agenda</li></ul><h6>Módulo 3: Herramientas Digitales</h6><ul><li>Software de gestión</li><li>Buscadores de jurisprudencia</li><li>Seguridad de información</li></ul><h6>Módulo 4: Práctica Profesional</h6><ul><li>Atención al cliente</li><li>Organismos públicos</li><li>Firma digital</li></ul></div></div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-building"></i></div>
+                        <div class="card-body">
+                            <h4>Agente Inmobiliario</h4>
+                            <p class="small">Formate para intermediar en operaciones inmobiliarias con éxito.</p>
+                            <ul class="curso-info-list">
+                                <li><i class="bi bi-calendar3"></i> Modalidad: Presencial / Virtual</li>
+                                <li><i class="bi bi-clock-history"></i> 1 clase semanal de 2hs</li>
+                            </ul>
+                            <div class="curso-actions">
+                               <button class="btn-temario btn-curso" type="button" data-bs-toggle="collapse" data-bs-target="#temario-5">Ver Temario</button>
+                                <a href="https://wa.me/5493765245980?text=Info%20Agente%20Inmobiliario" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="temario-5" data-bs-parent="#cursosAccordion"><div class="curso-temario-detalle"><h6>Módulo 1: Fundamentos y Legal</h6><ul><li>Introducción al sector</li><li>Derecho de propiedad</li><li>Tipos de contratos</li></ul><h6>Módulo 2: Captación y Producto</h6><ul><li>Registro de propiedad</li><li>Valoración básica</li><li>Preparación del inmueble</li></ul><h6>Módulo 3: Marketing y Ventas</h6><ul><li>Marketing digital</li><li>Segmentación de clientes</li><li>Negociación y cierre</li></ul><h6>Módulo 4: Finanzas y Tecnología</h6><ul><li>Hipoteca y financiación</li><li>Herramientas tecnológicas</li><li>Plan de negocios</li></ul></div></div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-lightbulb-fill"></i></div>
+                        <div class="card-body">
+                            <h4>Electricidad Domiciliaria</h4>
+                            <p class="small">Aprendé a realizar instalaciones eléctricas seguras y eficientes.</p>
+                            <ul class="curso-info-list">
+                                <li><i class="bi bi-calendar3"></i> Modalidad: Presencial / Virtual</li>
+                                <li><i class="bi bi-clock-history"></i> 1 clase semanal de 3hs</li>
+                            </ul>
+                            <div class="curso-actions">
+                                <button class="btn-temario btn-curso" type="button" data-bs-toggle="collapse" data-bs-target="#temario-6">Ver Temario</button>
+                                <a href="https://wa.me/5493765245980?text=Info%20Electricidad" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="temario-6" data-bs-parent="#cursosAccordion"><div class="curso-temario-detalle"><h6>Módulo 1: Seguridad Eléctrica</h6><ul><li>Conceptos básicos</li><li>Riesgos eléctricos</li><li>Normas y EPP</li></ul><h6>Módulo 2: Ley de Ohm</h6><ul><li>Tensión, intensidad, resistencia</li><li>Aplicación práctica</li></ul><h6>Módulo 3: Materiales</h6><ul><li>Potencia y consumo</li><li>Conductores y aislantes</li></ul><h6>Módulo 4: Componentes</h6><ul><li>Cables y circuitos</li><li>Interruptores y tomas</li></ul><h6>Módulo 5: Instalaciones</h6><ul><li>Térmicas y disyuntor</li><li>Puesta a tierra</li></ul></div></div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-robot"></i></div>
+                        <div class="card-body">
+                            <h4>Operador de IA</h4>
+                            <p class="small">Descubrí el potencial de la inteligencia artificial y sus aplicaciones prácticas.</p>
+                             <ul class="curso-info-list"><li><i class="bi bi-clock-history"></i> Próximamente</li></ul>
+                            <div class="curso-actions">
+                                <a href="https://wa.me/5493765245980?text=Info%20Operador%20de%20IA" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-journal-text"></i></div>
+                        <div class="card-body">
+                            <h4>Secretariado General</h4>
+                            <p class="small">Formate como un asistente administrativo integral, clave en cualquier organización.</p>
+                             <ul class="curso-info-list"><li><i class="bi bi-clock-history"></i> Próximamente</li></ul>
+                            <div class="curso-actions">
+                                <a href="https://wa.me/5493765245980?text=Info%20Secretariado%20General" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-mouse"></i></div>
+                        <div class="card-body">
+                            <h4>Introducción a la Informática</h4>
+                            <p class="small">Da tus primeros pasos en el mundo digital y aprende a usar la computadora.</p>
+                             <ul class="curso-info-list"><li><i class="bi bi-clock-history"></i> Próximamente</li></ul>
+                            <div class="curso-actions">
+                                <a href="https://wa.me/5493765245980?text=Info%20Introducción%20a%20la%20Informática" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-code-slash"></i></div>
+                        <div class="card-body">
+                            <h4>Desarrollo Web Fullstack</h4>
+                            <p class="small">Aprendé a crear aplicaciones web completas, del frontend hasta el backend.</p>
+                             <ul class="curso-info-list"><li><i class="bi bi-clock-history"></i> Próximamente</li></ul>
+                            <div class="curso-actions">
+                                <a href="https://wa.me/5493765245980?text=Info%20Desarrollo%20Web" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-bar-chart-line-fill"></i></div>
+                        <div class="card-body">
+                            <h4>Gestión Empresarial</h4>
+                            <p class="small">Incorporá herramientas de administración para el éxito de tu emprendimiento.</p>
+                             <ul class="curso-info-list"><li><i class="bi bi-clock-history"></i> Próximamente</li></ul>
+                            <div class="curso-actions">
+                                <a href="https://wa.me/5493765245980?text=Info%20Gestión%20Empresarial" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="curso-col">
+                    <div class="card-curso">
+                        <div class="curso-icon"><i class="bi bi-megaphone-fill"></i></div>
+                        <div class="card-body">
+                            <h4>Marketing Empresarial</h4>
+                            <p class="small">Aprendé estrategias de marketing para posicionar y hacer crecer tu negocio.</p>
+                            <ul class="curso-info-list"><li><i class="bi bi-clock-history"></i> Próximamente</li></ul>
+                            <div class="curso-actions">
+                                <a href="https://wa.me/5493765245980?text=Info%20Marketing%20Empresarial" class="btn-wsp btn-curso"><i class="bi bi-whatsapp"></i> Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="miembros" class="section-bg">
+        <div class="container">
+            <div id="miembros-signup">
+                <div class="text-center mb-5">
+                    <h2>Comunidad de Miembros</h2>
+                    <p class="lead" style="color: #f0f0f0;">Registrate para acceder a beneficios exclusivos.</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <form id="signupForm">
+                            <div class="mb-3">
+                                <label for="memberName" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="memberName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="memberEmail" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="memberEmail" required>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-warning btn-lg" style="font-weight: bold;">Quiero ser Miembro</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="miembros-contenido" style="display: none;">
+                <div class="text-center mb-5">
+                    <h2>¡Bienvenido/a a la Comunidad!</h2>
+                    <p class="lead" style="color: #f0f0f0;">Disfrutá de tus beneficios exclusivos.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <div class="fs-2 text-warning"><i class="bi bi-people-fill"></i></div>
+                                <h5 class="card-title mt-3">Networking</h5>
+                                <p class="card-text text-muted">Conectá con otros profesionales y emprendedores de la región.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <div class="fs-2 text-warning"><i class="bi bi-camera-video-fill"></i></div>
+                                <h5 class="card-title mt-3">Contenido Exclusivo</h5>
+                                <p class="card-text text-muted">Acceso a webinars, talleres y material de estudio adicional.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <div class="fs-2 text-warning"><i class="bi bi-ticket-percent-fill"></i></div>
+                                <h5 class="card-title mt-3">Descuentos en Cursos</h5>
+                                <p class="card-text text-muted">Obtené precios especiales en toda nuestra oferta educativa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="en-vivo">
+        <div class="container text-center">
+            <div class="text-center mb-5">
+                <h2>Cursos en Vivo</h2>
+                <p class="lead" style="color: #f0f0f0;">Clases interactivas en tiempo real con nuestros instructores.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p>Preparate para una nueva modalidad de aprendizaje. Estamos finalizando los detalles para lanzar nuestros primeros cursos en vivo. ¡No te quedes afuera!</p>
+                    <button class="btn btn-warning disabled mt-3" style="font-weight: bold;">PRÓXIMAMENTE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-bg">
+        <div class="container text-center">
+            <p>© 2026 Fundación Idear - Posadas, Misiones</p>
+            <div class="fs-4">
+                <a href="#"><i class="bi bi-facebook mx-2"></i></a>
+                <a href="#"><i class="bi bi-instagram mx-2"></i></a>
+                <a href="#"><i class="bi bi-linkedin mx-2"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Términos y Condiciones -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="termsModalLabel" style="color: #0b1f4a;">Términos y Condiciones de Membresía</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe src="membresia-terminos.pdf#toolbar=0" width="100%" height="500px" style="border: none;"></iframe>
+          </div>
+          <div class="modal-footer justify-content-center">
+             <div class="form-check my-3">
+                <input class="form-check-input" type="checkbox" value="" id="modalTermsCheckbox">
+                <label class="form-check-label" for="modalTermsCheckbox" style="color: #0b1f4a;">
+                    He leído y acepto los términos y condiciones.
+                </label>
+            </div>
+            <a id="modalSubscribeButton" href="https://wa.me/5493765245980?text=Hola!%20Acepto%20los%20términos%20y%20condiciones%20y%20quiero%20suscribirme." class="btn btn-success btn-lg disabled ms-3" style="font-weight: bold;">Suscribirme</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+</body>
+</html>

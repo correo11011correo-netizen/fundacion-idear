@@ -1,0 +1,64 @@
+:root { --azul: #0b1f4a; --amarillo: #f7e08a; --verde-wsp: #25d366; --gris-claro: #f8f9fa; --azul-claro: #1a3a69; --texto-claro: #f0f0f0; --borde-suave: #2a3a60; }
+body { background: var(--azul); font-family: 'Poppins', sans-serif; color: var(--texto-claro); }
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight: 700; color: white; }
+section { padding: 100px 0; border-bottom: 1px solid var(--borde-suave); }
+.section-bg { background-color: #08142b; }
+.navbar { transition: all 0.3s ease-in-out; }
+.scrolled .navbar { background: var(--azul) !important; box-shadow: 0 5px 20px rgba(0,0,0,0.2); }
+.brand-master { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.brand-master img { width: 250px; margin-bottom: 20px; }
+.brand-master h1 { font-size: 3.5rem; }
+.brand-master h2 { font-size: 1.5rem; color: var(--amarillo); }
+.card-curso { background: var(--azul-claro); border: 1px solid var(--borde-suave); border-radius: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: all 0.3s ease; height: 100%; text-align: center; position: relative; padding-top: 50px; }
+.card-curso:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.2); border-color: var(--amarillo); }
+.curso-icon { width: 80px; height: 80px; background: linear-gradient(45deg, var(--amarillo), #ffc107); color: var(--azul); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; position: absolute; top: -40px; left: 50%; transform: translateX(-50%); border: 5px solid var(--azul); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+.card-curso h4 { font-size: 1.1rem; margin: 15px 0; min-height: 3.2em; color: white; }
+.card-body { padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1; }
+.card-curso p.small { font-size: 0.9rem; color: #adb5bd; }
+.curso-info-list { list-style: none; padding: 0; margin: 1rem 0; text-align: left; }
+.curso-info-list li { margin-bottom: 20px; font-size: 0.85rem; }
+.curso-info-list i { margin-right: 8px; color: var(--amarillo); }
+.curso-actions { margin-top: auto; }
+.btn-curso { padding: 10px 15px; font-weight: bold; border-radius: 50px; text-align: center; transition: all 0.3s; width: 100%; }
+.btn-temario { background: var(--amarillo); border: 2px solid var(--amarillo); color: var(--azul); margin-bottom: 20px; }
+.btn-temario:hover { background: #ffc107; border-color: #ffc107; }
+.btn-wsp { background: transparent; border: 2px solid var(--verde-wsp); color: var(--verde-wsp); }
+.btn-wsp:hover { background: var(--verde-wsp); color: white; }
+.curso-temario-detalle { padding: 20px; background: #08142b; text-align: left; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; }
+.curso-temario-detalle h6 { color: var(--amarillo); }
+.curso-temario-detalle ul { padding-left: 20px; list-style-type: disclosure-closed; }
+.curso-temario-detalle li { font-size: 0.9rem; }
+footer { background: #08142b; color: white; padding: 40px 0; }
+
+/* --- Masonry Grid styles --- */
+.cursos-grid {
+    margin: 0 auto; /* Centra la cuadrícula si hay espacio extra */
+}
+.curso-col {
+    width: 31%; /* Para un layout de 3 columnas con espacio */
+    margin-bottom: 30px; /* Espacio vertical que Bootstrap g-5 proporcionaba */
+}
+/* Media queries para responsividad */
+@media (max-width: 991px) {
+    .curso-col {
+        width: 48%; /* 2 columnas en tablets */
+    }
+}
+@media (max-width: 767px) {
+    .curso-col {
+        width: 100%; /* 1 columna en móviles */
+    }
+}
+
+/* --- Estilos para Optimización Móvil (Previamente añadidos) --- */
+@media (max-width: 767px) {
+    .brand-master h1 {
+        font-size: 2.5rem;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .brand-master img {
+        width: 180px;
+    }
+}
