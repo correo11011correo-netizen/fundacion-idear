@@ -23,4 +23,4 @@ jobs:
 
     - name: Deploy to server
       run: |
-        ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd /var/www/fundacionidear/public_html && git pull origin master"
+        ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd /var/www/fundacionidear/public_html && git fetch --all && git reset --hard origin/master"
